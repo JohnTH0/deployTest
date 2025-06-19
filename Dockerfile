@@ -15,4 +15,4 @@ ARG JAR_FILE_PATH=build/libs/*.jar
 COPY ${JAR_FILE_PATH} app.jar
 
 # 컨테이너 실행시 바로 수행할 명령어
-ENTRYPOINT ["java", "-jar", "xxx.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar"]
